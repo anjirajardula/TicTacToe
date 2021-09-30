@@ -12,6 +12,7 @@ import java.io.OptionalDataException;
 
 public class TicTacToeGame {
     public static void createBoard() {
+        //create array
         char[] board = new char[10];
         for (int i = 1; i < board.length; i++) {
             board[i] = ' ';
